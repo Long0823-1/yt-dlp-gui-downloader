@@ -13,6 +13,17 @@ header {
     text-align: center;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    /* ロゴと文字列を縦方向に中央揃え */
+    justify-content: center;
+    /* 中央揃え */
+    gap: 20px;
+    /* ロゴと文字列の間のスペース */
+    margin-bottom: 10px;
+}
+
 header h1 {
     margin: 0;
 }
@@ -62,4 +73,11 @@ img {
 
 .btn-download:hover {
     background: #005bb5;
+}
+
+header .logo img {
+    max-width: 200px;
+    /* ロゴの幅を制限します */
+    height: auto;
+    margin-bottom: 10px;
 }
